@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2207fe103a43598e6ade38c2bacdc16e6d2258c
 # Python
 __pycache__/
 *.py[cod]
@@ -16,12 +20,17 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+share/python-wheels/
+>>>>>>> c2207fe103a43598e6ade38c2bacdc16e6d2258c
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
 # Virtual environments
+<<<<<<< HEAD
 .env
 .venv
 env/
@@ -45,19 +54,44 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+=======
+venv/
+env/
+ENV/
+.env
+.venv
+>>>>>>> c2207fe103a43598e6ade38c2bacdc16e6d2258c
 
 # Streamlit
 .streamlit/
 
+<<<<<<< HEAD
 # Data files (keep CSV for demo)
 *.parquet
 *.pickle
 *.pkl
+=======
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.json
+!sample_data.csv
+>>>>>>> c2207fe103a43598e6ade38c2bacdc16e6d2258c
 
 # Logs
 *.log
 logs/
 
+<<<<<<< HEAD
 # Temporary files
 *.tmp
 *.temp
@@ -75,3 +109,13 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+=======
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+config.ini
+secrets.toml
+.env.local
+>>>>>>> c2207fe103a43598e6ade38c2bacdc16e6d2258c
